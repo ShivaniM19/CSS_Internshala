@@ -1,9 +1,5 @@
-/* descendant selector */
-/* selector1 selector2 :  parent  child*/
-div ul li a{
-    color:blue;
-}
-
-div p a{
-    color:green;
+/* Grouping  selector: */
+/* selector1, selector2, selector3*/
+p,h2{
+    color :crimson;
 }
