@@ -1,5 +1,5 @@
-/* Grouping  selector: */
+/* Attribute  selector: */
 /* selector1, selector2, selector3*/
-p,h2{
-    color :crimson;
+input[type="text"]{
+    color:red;
 }
