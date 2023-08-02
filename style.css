@@ -1,5 +1,9 @@
-/* child selectors */
-/* selector1 > selector2 :  parent > child*/
-p > a{
-    color: green;
+/* descendant selector */
+/* selector1 selector2 :  parent  child*/
+div ul li a{
+    color:blue;
+}
+
+div p a{
+    color:green;
 }
