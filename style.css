@@ -1,14 +1,33 @@
-/* Percentage length: */
-/* width of img= 50./100 * 600 =300px */
-div{
-    width: 600px;
-}
-img{
-    width: 50%;
+/* colors */
+/* 1.rgb */
+p{
+    color:rgb(255, 0,0);
+    /* color:rgb(0, 255,0);  =green
+    color:rgb(0, 0,255);     =blue
+    color:rgb(255, 255,255); =white
+    color:rgb(0, 0,0);       =black
+    color:rgb(255,255,0);    =yellow
+    color:rgb(0,255,255);    =cyan
+    color:rgb(255, 0,255);   =purple 
+    */
 }
 
-/* font size of parent div element =15
-thn font size of p element =80/100*15=12px */
-p{
-    font-size: 80%;
+/* 2.hexadecimal  */
+h1{ 
+    color:#00ffff;  
+    /*  
+    color:#ff0000;  =red
+    color:#00ff00;  =green
+    color:#0000ff;  =blue
+    color:#000000;  =black
+    color:#00ffff;  =cyan
+    color:#ffff00;  =yellow
+    color:#ff00ff;  =puple
+    color:#ffffff;  =white
+*/
+
+}
+/* 3. */
+h2{
+    color:green;
 }
