@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS introduction</title>
+    <title>Child selectors</title>
     <link rel="stylesheet" href="style.css">
     <style>
     </style>
 </head>
-<!-- combination selectors: element selectors which having same class -->
-    <h1 >THis is heading</h1>
-    <p class ="xyz"> This is paragraph 1</p>
-    <p class="xyz">This is paragraph 2</p>
-    <p id="abc">This is paragraph 3</p>
-    <p>This is paragraph 4</p>
+    <div>
+        <ul>
+            <li>
+                <a href="https://www.google.com" target="_blank">Google</a>
+            </li>
+            <li>
+                <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            </li>
+        </ul>
+    </div>
+    <div>
+        <!-- anchor element is descendent to div element or
+             div element is anccestor anchor element -->
+        <p>
+            <a href="https://www.internshala.com" target="_blank">Internshala</a>
+        </p>
+    </div>
 </body>
 </html>
