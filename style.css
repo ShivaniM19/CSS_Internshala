@@ -1,33 +1,26 @@
-/* colors */
-/* 1.rgb */
-p{
-    color:rgb(255, 0,0);
-    /* color:rgb(0, 255,0);  =green
-    color:rgb(0, 0,255);     =blue
-    color:rgb(255, 255,255); =white
-    color:rgb(0, 0,0);       =black
-    color:rgb(255,255,0);    =yellow
-    color:rgb(0,255,255);    =cyan
-    color:rgb(255, 0,255);   =purple 
-    */
-}
-
-/* 2.hexadecimal  */
-h1{ 
-    color:#00ffff;  
-    /*  
-    color:#ff0000;  =red
-    color:#00ff00;  =green
-    color:#0000ff;  =blue
-    color:#000000;  =black
-    color:#00ffff;  =cyan
-    color:#ffff00;  =yellow
-    color:#ff00ff;  =puple
-    color:#ffffff;  =white
+/* css property */
+/* default values: 
+    backgorund color: transperant ;
+    color:black;
+    font-family: ;
+    font-size (p):16px;
+    font-weight(p): normal;
+    font-weight(h1-h6): bold;
+    font-style:normal;
+    text-decoration(for all elememt except a):none;
+    text-decoration(a):underline;
+    text-align:left;
 */
-
+.abc{
+    color: red;
+    background-color: yellow;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px ;
+    font-weight: bold;
+    font-style:italic;
+    text-decoration: underline;
+    text-align: center;
+    line-height:100px ;
 }
-/* 3. */
-h2{
-    color:green;
-}
+/* line-height: space above and below the line 
+we can specify line-height with absolute value */
